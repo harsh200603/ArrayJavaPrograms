@@ -20,6 +20,6 @@ public class LinearSearchAlgorithm {
             if(element==target)
                 return index;
         }
-        return 0;
+        return -1;
     }
 }
