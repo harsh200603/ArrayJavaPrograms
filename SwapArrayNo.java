@@ -1,5 +1,5 @@
 package ArrayPrograms;
-
+//Swapping two numbers of an array
 import java.util.*;
 
 public class SwapArrayNo {
