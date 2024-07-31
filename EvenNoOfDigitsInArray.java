@@ -59,8 +59,19 @@ public class EvenNoOfDigitsInArray {
     //Count No. of Digits
     static int CountNoOfDigits(int num)
     {
+        //Converts negative number into positive if present
+        if(num<0)
+        {
+            num=num*-1;
+        }
+        //If the number is 0 it returns 0
+        if(num==0)
+        {
+            return 0;
+        }
+
         int count=0;  //Initially count is 0
-        while(num>0)  
+        while(num>0)
         {
             num=num/10;
             count++;
