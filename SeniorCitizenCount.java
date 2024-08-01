@@ -35,7 +35,7 @@ public class SeniorCitizenCount {
         int count=0;
         for(int i=0;i< details.length; i++)
         {
-            String age=details[i].substring(11,13); //details[i] is used as i helps in iterating over the array and each elements age should be stored
+            String age=details[i].substring(11,13); //details[i] is used as 'i' helps in iterating over the array and each elements age should be stored
             int AgeVal=Integer.parseInt(age);  //String age is converted from String into Integer
 
             //Checks if the Age is more than 60 or not
