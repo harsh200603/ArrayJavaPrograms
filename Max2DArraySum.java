@@ -36,7 +36,7 @@ public class Max2DArraySum {
             int sum=0;
             for(int j=0;j<accounts[i].length;j++)
             {
-                sum=sum+accounts[i][j]; //Addition of every elements of each row's coloumn and storing it in sum
+                sum=sum+accounts[i][j]; //Addition of every elements of each row's column and storing it in sum
             }
             if(sum>max)// Checking of maximum value of each row
             {
