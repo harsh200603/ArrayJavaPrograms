@@ -21,10 +21,10 @@ public class ReversingArray2 {
         }
     }
 
-    
+
     static void Reverse(int [] arr)
     {
-        int left=0; // Frist Element of Array
+        int left=0; // First Element of Array
         int right=arr.length-1;  //Last Element of Array
         while(left<right) {
             int temp = arr[left];  //first element is stored in a temp variable
